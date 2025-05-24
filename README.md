@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+# Welcome to Macro Athlete for Mobile
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an sport specific, athlete based recovery AI specialist designed to aid with recovery for college athletes in season and off season.
 
-## Get started
+## Motivation
 
-1. Install dependencies
+As an ex college athlete I dealt with countless injuries that kept me out of competition throughout my 4 years playing soccer, from hamstrings to my knee, my back to minor injurys such as ankles and groins. After finishing my final season I sat down and really thought how could I have prevented some of these injuries - By taking more care of what I do when I'm not training or playing in a match. How can I optimize my recovery while I have such a packed training and match schedule cramed into 2 and half months.
 
-   ```bash
-   npm install
-   ```
+## Tid bits
 
-2. Start the app
+I first designed this project as a small mvp for my computer science senior thesis where I built out very basic functionalites that allowe athletes to provide a daily check in and input their weekly schedule and and AI would compile that data and give them recovery tip and metrics specific to them every day they checked in.
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+## Technologies
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Originally I used Next Js for my front end and Nest Js for my backend combined with a postgres db where I stored inputs and data related to the athletes.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+For this I plan to expand by adding a React Native front end so that users will be more inclined to use a phone app as to opposed to navigating to a website everyday where they might not as much access as their phones.
 
-## Get a fresh project
 
-When you're ready, run:
+## How to use (user)
 
-```bash
-npm run reset-project
-```
+As a user navigate to either the webapp or the mobile app and proceed with signing up or logging in. If you are a new user you will go through a new user wizard to properly set up your account.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## Author and Concluding Remarks
 
-To learn more about developing your project with Expo, look at the following resources:
+I am the sole author in this project - Jackson Gilstrap
+If you would like to contact me you can find me on linkedin - Jackson Gilstrap
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
